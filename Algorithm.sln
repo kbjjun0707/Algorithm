@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Algorithm", "Algorithm\Algorithm.vcxproj", "{7631DC40-F15B-4A9C-BD10-DBB91944B279}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BFS", "BFS\BFS.vcxproj", "{A559B130-6B34-4780-9A7F-1BDD8A668571}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7631DC40-F15B-4A9C-BD10-DBB91944B279}.Debug|x64.ActiveCfg = Debug|x64
-		{7631DC40-F15B-4A9C-BD10-DBB91944B279}.Debug|x64.Build.0 = Debug|x64
-		{7631DC40-F15B-4A9C-BD10-DBB91944B279}.Debug|x86.ActiveCfg = Debug|Win32
-		{7631DC40-F15B-4A9C-BD10-DBB91944B279}.Debug|x86.Build.0 = Debug|Win32
-		{7631DC40-F15B-4A9C-BD10-DBB91944B279}.Release|x64.ActiveCfg = Release|x64
-		{7631DC40-F15B-4A9C-BD10-DBB91944B279}.Release|x64.Build.0 = Release|x64
-		{7631DC40-F15B-4A9C-BD10-DBB91944B279}.Release|x86.ActiveCfg = Release|Win32
-		{7631DC40-F15B-4A9C-BD10-DBB91944B279}.Release|x86.Build.0 = Release|Win32
+		{A559B130-6B34-4780-9A7F-1BDD8A668571}.Debug|x64.ActiveCfg = Debug|x64
+		{A559B130-6B34-4780-9A7F-1BDD8A668571}.Debug|x64.Build.0 = Debug|x64
+		{A559B130-6B34-4780-9A7F-1BDD8A668571}.Debug|x86.ActiveCfg = Debug|Win32
+		{A559B130-6B34-4780-9A7F-1BDD8A668571}.Debug|x86.Build.0 = Debug|Win32
+		{A559B130-6B34-4780-9A7F-1BDD8A668571}.Release|x64.ActiveCfg = Release|x64
+		{A559B130-6B34-4780-9A7F-1BDD8A668571}.Release|x64.Build.0 = Release|x64
+		{A559B130-6B34-4780-9A7F-1BDD8A668571}.Release|x86.ActiveCfg = Release|Win32
+		{A559B130-6B34-4780-9A7F-1BDD8A668571}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

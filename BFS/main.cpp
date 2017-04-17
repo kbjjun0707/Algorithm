@@ -20,7 +20,7 @@ public:
 class BFS {
 	int m_DirNum;
 	Point m_DirCandidate[8] = {
-		{0, -1}, {1, -1}, {1, 0}, {1, 1}, {0, 1}, {-1,1}, {-1, 0}, {-1,-1}
+		{ 0, -1 }, { 1, -1 }, { 1, 0 }, { 1, 1 }, { 0, 1 }, { -1,1 }, { -1, 0 }, { -1,-1 }
 	};
 	Point *m_Dir = 0;
 	Point m_Size;
@@ -62,7 +62,7 @@ public:
 		m_Size = { col, row };
 		m_DirNum = dir;
 		m_Dir = new Point[m_DirNum];
-		for (int i = 0, ti = 0; i < m_DirNum; i++, ti += (8/m_DirNum)) {
+		for (int i = 0, ti = 0; i < m_DirNum; i++, ti += (8 / m_DirNum)) {
 			m_Dir[i] = m_DirCandidate[ti];
 		}
 		setStartPoint(sx, sy);
@@ -153,7 +153,7 @@ int **Data;
 int main() {
 	int szX, szY, stX, stY, enX, enY;
 	char buf[100];
-	
+
 	FILE *fp;
 	fopen_s(&fp, "input.txt", "r");
 
@@ -178,7 +178,7 @@ int main() {
 	fclose(fp);
 
 
-	
+
 	BFS finder(szY, szX, 4, Data);
 	finder.setStartPoint(stX, stY);
 	finder.setEndPoint(enX, enY);

@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{7631DC40-F15B-4A9C-BD10-DBB91944B279}</ProjectGuid>
+    <ProjectGuid>{A559B130-6B34-4780-9A7F-1BDD8A668571}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Algorithm</RootNamespace>
+    <RootNamespace>BFS</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -146,7 +146,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="소스.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
