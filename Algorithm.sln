@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BFS", "BFS\BFS.vcxproj", "{A559B130-6B34-4780-9A7F-1BDD8A668571}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConvexHull", "ConvexHull\ConvexHull.vcxproj", "{5F0A42A7-63B5-4EBF-9288-F4BD2154CB80}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{A559B130-6B34-4780-9A7F-1BDD8A668571}.Release|x64.Build.0 = Release|x64
 		{A559B130-6B34-4780-9A7F-1BDD8A668571}.Release|x86.ActiveCfg = Release|Win32
 		{A559B130-6B34-4780-9A7F-1BDD8A668571}.Release|x86.Build.0 = Release|Win32
+		{5F0A42A7-63B5-4EBF-9288-F4BD2154CB80}.Debug|x64.ActiveCfg = Debug|x64
+		{5F0A42A7-63B5-4EBF-9288-F4BD2154CB80}.Debug|x64.Build.0 = Debug|x64
+		{5F0A42A7-63B5-4EBF-9288-F4BD2154CB80}.Debug|x86.ActiveCfg = Debug|Win32
+		{5F0A42A7-63B5-4EBF-9288-F4BD2154CB80}.Debug|x86.Build.0 = Debug|Win32
+		{5F0A42A7-63B5-4EBF-9288-F4BD2154CB80}.Release|x64.ActiveCfg = Release|x64
+		{5F0A42A7-63B5-4EBF-9288-F4BD2154CB80}.Release|x64.Build.0 = Release|x64
+		{5F0A42A7-63B5-4EBF-9288-F4BD2154CB80}.Release|x86.ActiveCfg = Release|Win32
+		{5F0A42A7-63B5-4EBF-9288-F4BD2154CB80}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
